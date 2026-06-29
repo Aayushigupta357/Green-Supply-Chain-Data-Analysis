@@ -73,4 +73,8 @@ Once comfortable with this pattern, it's easy to apply it to any new dataset.
 
 ## Conclusion
 
-This project ran a complete BI analytics pipeline — cleaning, KPI engineering, SQL diagnostics, and SciPy statistical testing — on 1,000 supply chain records. The analysis found that renewable energy adoption, not cost or product category, is the strongest driver of sustainability outcomes (r≈0.70), while category differences alone aren't statistically significant. Results were delivered as both an interactive Excel dashboard and an auto-generated Word report, demonstrating end-to-end analytics from raw data to stakeholder-ready output.
+This project was built entirely in **Python**, using a single Jupyter notebook to run a 
+complete BI analytics pipeline: data cleaning and KPI engineering (pandas, NumPy), SQL 
+diagnostics via SQLite (CTEs + window functions), and statistical testing with SciPy — 
+applied to 1,000 supply chain records. Results were delivered as both an interactive 
+Excel dashboard (XlsxWriter) and an auto-generated Word report (python-docx).
