@@ -56,18 +56,6 @@ Pharmaceutical, Food**. Each record has cost, CO2 emissions, energy use, waste
 generated, renewable energy %, transport distance, delivery time, and a
 sustainability score (0–100).
 
-## 🚀 How to Run
-
-```bash
-git clone https://github.com/yourusername/green-supply-chain-beginner.git
-cd green-supply-chain-beginner
-pip install -r requirements.txt
-jupyter notebook Green_Supply_Chain_Beginner_Project.ipynb
-```
-
-Or open it directly in [Google Colab](https://colab.research.google.com/) —
-just upload the notebook and the `data/` folder.
-
 ## 🔍 Key Findings
 
 - **Food** has the highest average sustainability score; **Apparel** has the lowest.
