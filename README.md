@@ -71,6 +71,6 @@ This project follows a pattern used in almost every data analytics project:
 
 Once comfortable with this pattern, it's easy to apply it to any new dataset.
 
-## 📄 License
+## Conclusion
 
-MIT — see [LICENSE](LICENSE)
+This project ran a complete BI analytics pipeline — cleaning, KPI engineering, SQL diagnostics, and SciPy statistical testing — on 1,000 supply chain records. The analysis found that renewable energy adoption, not cost or product category, is the strongest driver of sustainability outcomes (r≈0.70), while category differences alone aren't statistically significant. Results were delivered as both an interactive Excel dashboard and an auto-generated Word report, demonstrating end-to-end analytics from raw data to stakeholder-ready output.
